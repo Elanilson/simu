@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageViewWallpaper"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            android:cropToPadding="true"
+            android:scaleType="centerCrop"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="@id/imageViewModeloCamisa"
+            app:layout_constraintEnd_toEndOf="@id/imageViewModeloCamisa"
+            app:layout_constraintStart_toStartOf="@id/imageViewModeloCamisa"
+            app:layout_constraintTop_toTopOf="@id/imageViewModeloCamisa"
+            app:srcCompat="@drawable/wall" />
+
+        <ImageView
+            android:id="@+id/imageViewTexturaCamisa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/camisa_com_mangas_curtas_textura_verso_modelo1" />
+
+        <ImageView
+            android:id="@+id/imageViewModeloCamisa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:cropToPadding="true"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="@+id/imageViewTexturaCamisa"
+            app:layout_constraintEnd_toEndOf="@+id/imageViewTexturaCamisa"
+            app:layout_constraintStart_toStartOf="@+id/imageViewTexturaCamisa"
+            app:layout_constraintTop_toTopOf="@+id/imageViewTexturaCamisa"
+            app:srcCompat="@drawable/camisa_com_mangas_curtas_modelo1" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

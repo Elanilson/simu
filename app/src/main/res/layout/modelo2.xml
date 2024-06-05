@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/imageViewMoldeCalcao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="-10dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView6"
+        app:layout_constraintStart_toStartOf="@+id/imageView6"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewMolde2Camisa2"
+        app:srcCompat="@drawable/model_short_modelo2" />
+
+    <com.apkdoandroid.simuladorderoupas.utils.CustomImageView
+        android:id="@+id/iv_custom"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewMolde2Camisa2"
+        app:layout_constraintEnd_toEndOf="@+id/imageView6"
+        app:layout_constraintStart_toStartOf="@+id/imageView6"
+        app:layout_constraintTop_toTopOf="@+id/imageViewMolde2Camisa2"
+        app:srcCompat="@drawable/wall" />
+
+    <ImageView
+        android:id="@+id/imageViewEstampa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:clipChildren="true"
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewMolde2Camisa2"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewMolde2Camisa2"
+        app:layout_constraintStart_toStartOf="@+id/imageViewMolde2Camisa2"
+        app:layout_constraintTop_toTopOf="@+id/imageViewMolde2Camisa2"
+        app:srcCompat="@drawable/model_camisa_molde2_background" />
+
+    <ImageView
+        android:id="@+id/imageViewEstam3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:clipChildren="true"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewMolde2Camisa2"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewMolde2Camisa2"
+        app:layout_constraintStart_toStartOf="@+id/imageViewMolde2Camisa2"
+        app:layout_constraintTop_toTopOf="@+id/imageViewMolde2Camisa2"
+        app:srcCompat="@drawable/time" />
+
+    <ImageView
+        android:id="@+id/imageViewMolde2Camisa2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:clipChildren="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/model_camisa_molde2" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewMolde2Camisa2"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewMolde2Camisa2"
+        app:layout_constraintStart_toStartOf="@+id/imageViewMolde2Camisa2"
+        app:layout_constraintTop_toTopOf="@+id/imageViewMolde2Camisa2"
+        app:srcCompat="@drawable/futebol_masculino_2_camisa" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewMoldeCalcao"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewMoldeCalcao"
+        app:layout_constraintStart_toStartOf="@+id/imageViewMoldeCalcao"
+        app:layout_constraintTop_toTopOf="@+id/imageViewMoldeCalcao"
+        app:srcCompat="@drawable/futebol_masculino_2_calcao" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

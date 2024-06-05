@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#FF5722"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/modelo_camisa"
+        layout="@layout/layout_camisa_masculina_futebol_modelo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:visibility="visible"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintHeight_min="100dp"
+        app:layout_constraintWidth_min="100dp" />
+
+    <include
+        android:id="@+id/modelo_calcao"
+        layout="@layout/layout_calcao_masculino_futebol_modelo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:visibility="visible"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintHeight_min="100dp"
+        app:layout_constraintWidth_min="100dp" />
+
+</LinearLayout>

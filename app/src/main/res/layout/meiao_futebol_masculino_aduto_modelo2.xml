@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageViewWallpapeMeiao"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:cropToPadding="true"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@id/imageViewMoldeMeiao"
+        app:layout_constraintEnd_toEndOf="@id/imageViewMoldeMeiao"
+        app:layout_constraintStart_toStartOf="@id/imageViewMoldeMeiao"
+        app:layout_constraintTop_toTopOf="@id/imageViewMoldeMeiao"
+        app:srcCompat="@drawable/wall" />
+
+    <ImageView
+        android:id="@+id/imageViewTexturaMeiao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/futebol_masculino_2_meiao_modelo2" />
+
+    <ImageView
+        android:id="@+id/imageViewMoldeMeiao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewTexturaMeiao"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewTexturaMeiao"
+        app:layout_constraintStart_toStartOf="@+id/imageViewTexturaMeiao"
+        app:layout_constraintTop_toTopOf="@+id/imageViewTexturaMeiao"
+        app:srcCompat="@drawable/meiao_masculino_futebol_modelo2" />
+
+    <ImageView
+        android:id="@+id/imageViewChuteira"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-60dp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewWallpapeMeiao"
+        app:layout_constraintStart_toStartOf="@+id/imageViewWallpapeMeiao"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewWallpapeMeiao"
+        app:srcCompat="@drawable/futebol_masculino_2_detalhe_chuteira_modelo2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

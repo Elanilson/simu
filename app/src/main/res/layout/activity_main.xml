@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:gravity="center_horizontal"
+    android:fillViewport="true"
+    android:paddingTop="20dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+    android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/CamisetaCMangaCurtaVersoMasculinoModelo_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <include
+                android:id="@+id/layoutCamisetaCMangaCurtaVersoMasculinoModelo1"
+                layout="@layout/camiseta_com_mangas_curtas_verso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/CamisetaCMangaCurtaMasculinoModelo_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <include
+                android:id="@+id/layoutCamisetaCMangaCurtaMasculinoModelo1"
+                layout="@layout/camiseta_com_mangas_curtas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/CamisaPoloVersoMasculinaAdulto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <include
+                android:id="@+id/layoutCamisaPoloVerso"
+                layout="@layout/camisa_polo_com_mangas_curtas_verso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/CamisaPoloMasculinaAdulto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <include
+                android:id="@+id/layoutCamisaPolo"
+                layout="@layout/camisa_polo_com_mangas_curtas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/CamisaPescaMangaCompridaVersoModelo1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <include
+                android:id="@+id/layoutCamisaPescaMangaCompridaVerso"
+                layout="@layout/camisa_pesca_com_mangas_longas_verso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/CamisaPescaMangaCompridaModelo1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <include
+                android:id="@+id/layoutCamisaPescaMangaComprida"
+                layout="@layout/camisa_pesca_com_mangas_longas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/CamisaSocialMangaCurtaMasculinaAdultoVerso_modelo1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <include
+                android:id="@+id/layoutCamisaSocialMangaCurtaverso"
+                layout="@layout/camisa_social_com_mangas_curtas_verso_modelo1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/CamisaSocialMangaCurtaMasculinaAdulto_modelo1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <include
+                android:id="@+id/layoutCamisaSocialMangaCurta"
+                layout="@layout/camisa_social_com_mangas_curtas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/CamisaSocialMangaLongaMasculinaAdultoVerso_modelo1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <include
+                android:id="@+id/layoutCamisaSocialMangaLongaVerso"
+                layout="@layout/camisa_social_com_mangas_longas_verso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/CamisaSocialMangaLongaMasculinaAdulto_modelo1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <include
+                android:id="@+id/layoutCamisaSocialMangaLonga"
+                layout="@layout/camisa_social_com_mangas_longas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/futebol_masculino_adulto_verso_modelo2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <include
+                android:id="@+id/layoutCamisa3"
+                layout="@layout/camisa_futebol_masculino_adulto__verso_modelo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <include
+                android:id="@+id/layoutCalcao3"
+                layout="@layout/calcao_futebol_masculino_aduto_verso_modelo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <include
+                android:id="@+id/layoutMeiao3"
+                layout="@layout/meiao_futebol_masculino_aduto_verso_modelo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/futebol_masculino_adulto_modelo2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <include
+                android:id="@+id/layoutCamisa2"
+                layout="@layout/camisa_futebol_masculino_adulto_modelo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <include
+                android:id="@+id/layoutCalcao2"
+                layout="@layout/calcao_futebol_masculino_aduto_modelo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <include
+                android:id="@+id/layoutMeiao2"
+                layout="@layout/meiao_futebol_masculino_aduto_modelo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/futebol_masculino_adulto_modelo1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <include
+                android:id="@+id/layoutCalcao1"
+                layout="@layout/calcao_futebol_masculino_aduto_modelo1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="-5dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/layoutCamisa1" />
+
+            <include
+                android:id="@+id/layoutMeiao1"
+                layout="@layout/meiao_futebol_masculino_aduto_modelo1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/layoutCalcao1" />
+
+            <include
+                android:id="@+id/layoutCamisa1"
+                layout="@layout/camisa_futebol_masculino_adulto_mode1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/futebol_masculino_adulto_verso_modelo1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <include
+                android:id="@+id/layoutCamisafutebol_masculino_adulto_verso_modelo1"
+                layout="@layout/camisa_futebol_masculino_adulto__verso_mode1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="visible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <include
+                android:id="@+id/layoutCalcaofutebol_masculino_adulto_verso_modelo1"
+                layout="@layout/calcao_futebol_masculino_aduto_verso_modelo1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:visibility="visible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/layoutCamisafutebol_masculino_adulto_verso_modelo1" />
+
+            <include
+                android:id="@+id/layoutMeiaofutebol_masculino_adulto_verso_modelo1"
+                layout="@layout/meiao_futebol_masculino_aduto_verso_modelo1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:visibility="visible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/layoutCalcaofutebol_masculino_adulto_verso_modelo1" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:srcCompat="@drawable/gola_camisa_polo_mangas_curtas_modelo1" />
+    </LinearLayout>
+
+
+</ScrollView>

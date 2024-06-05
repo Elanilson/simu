@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageViewFundo"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        android:scaleType="centerCrop"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewTextura"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewTextura"
+        app:layout_constraintStart_toStartOf="@+id/imageViewTextura"
+        app:layout_constraintTop_toTopOf="@+id/imageViewTextura"
+        app:srcCompat="@color/black" />
+
+    <ImageView
+        android:id="@+id/imageViewmodelo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/calcao_verso_futebol_model_modelo2" />
+
+    <ImageView
+        android:id="@+id/imageViewTextura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewmodelo"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewmodelo"
+        app:layout_constraintStart_toStartOf="@+id/imageViewmodelo"
+        app:layout_constraintTop_toTopOf="@+id/imageViewmodelo"
+        app:srcCompat="@drawable/futebol_masculino_2_calcao_verso_textura_modelo2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
